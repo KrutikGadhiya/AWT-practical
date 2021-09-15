@@ -1,0 +1,7 @@
+computer c001
+ebook b002
+mobile m003
+pen p001
+keyboard k002
+mouse cm001
+

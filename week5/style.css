@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap");
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	background-color: brown;
+	font-family: "Note Sans JP", sans-serif;
+	font-size: 0.8em;
+}
+
+table {
+	border-collapse: collapse;
+	font-size: 1.3em;
+}
+
+tr,
+td {
+	border: 1px solid #949494;
+	padding: 8px;
+}
+
+td {
+	padding: 0.5em 1em;
+}
+
+form {
+	width: 80%;
+	color: #fff;
+}
+
+.form {
+	border: 5px solid #fff;
+	width: 50%;
+	padding: 1em;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.form h1 {
+	margin: 0.35em 0;
+	text-align: center;
+}
+
+.output {
+	width: 50%;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	border: 5px solid #fff;
+}
+
+.form-control {
+	display: flex;
+	justify-content: space-between;
+	padding: 0.25em 0;
+}
+
+.form-control {
+	margin-top: 0.25em;
+}
+
+.form-control label {
+	margin-bottom: 0.125em;
+}
+
+.form-control input,
+button,
+textarea,
+select {
+	font-size: 1.1em;
+	padding: 0.125em;
+	width: 70%;
+	outline: none;
+	border: 1px solid #000;
+	border-radius: 0.2em;
+	transition: 0.2s ease-in-out;
+}
+.check {
+	width: 70%;
+}
+
+textarea {
+	resize: none;
+}
+
+.form-control input {
+	border: none;
+}
+
+.form-control input:focus,
+textarea:focus {
+	box-shadow: 0 0 0 4px #ddd4ed;
+}
+
+.form-control button {
+	background-color: lightskyblue;
+	padding: 0.5em 0;
+	font-size: 1.3em;
+	width: 100%;
+}
+.form-control button:hover {
+	background-color: #9893a1;
+	cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+	body {
+		flex-direction: column;
+	}
+	.form,
+	.output {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 500px) {
+	form {
+		font-size: 1em;
+	}
+	.form,
+	.output,
+	form,
+	.form-control input,
+	button,
+	textarea,
+	select {
+		width: 100%;
+	}
+	.check {
+		width: 100%;
+	}
+	.form-control {
+		flex-direction: column;
+	}
+	.form-control label {
+		margin-bottom: 0.5em;
+	}
+}

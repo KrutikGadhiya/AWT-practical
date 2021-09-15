@@ -1,0 +1,9 @@
+emp001 samir 20000 Ahmedabad Amreli
+emp003 raju 5000 Nadiad Bhuj
+emp005 sachin 20000 Ahmedabad Anand
+emp007 jeet 10000 Jamnagar Rajkot
+emp009 kunj 90000 Nadiad Anand
+emp0011 ramesh 40000 Anand Changa
+emp0013 mayur 30000 Pune Mumbai
+emp0015 jay 50000 Banglore Nadiad
+

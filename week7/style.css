@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Roboto Condensed", sans-serif;
+}
+body {
+	min-height: 100vh;
+	background-color: linen;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.5em;
+}
+h1 {
+	margin-bottom: 1em;
+}
+p {
+	margin-top: 0.25em;
+}
+.form-control {
+	margin-bottom: 0.45em;
+}
+.form-control input,
+.form-control select {
+	width: 100%;
+	padding: 0.25em;
+	font-size: 1.2em;
+}

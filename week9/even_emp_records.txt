@@ -1,0 +1,9 @@
+emp002 amit 30000 Anand Changa
+emp004 kavit 40000 Delhi Pune
+emp006 vivek 30000 Surat Changa
+emp008 reema 80000 Rajkot Changa
+emp0010 nirav 50000 Banglore Valetva
+emp0012 raj 60000 Mumbai Surat
+emp0014 tarun 80000 Kanpur Changa
+
+
