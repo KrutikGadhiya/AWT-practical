@@ -1,6 +1,10 @@
 <?php
 if (isset($_POST['submit'])) {
-  echo "<h1 class='alert alert-info'>" . $_POST['msg'] . "</h1>";
+  // echo "<h1 class='alert alert-info'>" . $_POST['msg'] . "</h1>";
+  $msg = "<h1 class='alert alert-info'>" . $_POST['msg'] . "</h1>";
+  echo htmlspecialchars($msg, ENT_SUBSTITUTE, 'UTF-8');
+  echo "<br>";
+  echo Strip_tags($msg);
 }
 ?>
 <!DOCTYPE html>
