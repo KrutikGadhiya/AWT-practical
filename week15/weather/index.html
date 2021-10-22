@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@400;500;600&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: 'Noto Sans Display', sans-serif;
+    }
+  </style>
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="loading">
+    <div class="loader-cont" id='loader'>
+      <div class="loader"></div>
+    </div>
+  </div>
+  <div class="header">My Weather App - 19IT035 Krutik Gadhiya</div>
+  <form class="location" id="form">
+    <input required type="text" name="city" id="input" class="inputCity">
+    <button type="submit" id="submit" name="getWeather" class="button">GO!</button>
+  </form>
+
+  <main class="main-container">
+    <div class="main-weather">
+      <div class="icon"><img src="http://openweathermap.org/img/wn/01d@2x.png" alt="" id="img"></div>
+      <h1 class="temperature" id="temp">
+        -
+      </h1>
+      <h2 class="h2" id="main">
+        -
+      </h2>
+      <h3 class="h3" id="desc">
+        -
+      </h3>
+      <div class="other-details">
+        <p class="property">Feels Like: <span class="value" id="feelslike">
+            -
+          </span></p>
+        <p class="property">MAX Temperature: <span class="value" id="tempMax">
+            -
+          </span></p>
+        <p class="property">MIN Temperature: <span class="value" id="tempMin">
+            -
+          </span></p>
+        <p class="property">Pressure: <span class="value" id="pressure">
+            -
+          </span></p>
+        <p class="property">Humidity: <span class="value" id="humidity">
+            -
+          </span></p>
+        <p class="property">Sea Level: <span class="value" id="seaLevel">
+            -
+          </span></p>
+        <p class="property">Ground Level: <span class="value" id="grndLevel">
+            -
+          </span></p>
+        <p class="property">Visiblity: <span class="value" id="vis">
+            -
+          </span></p>
+      </div>
+    </div>
+    <div class="details">
+      <div class="wind-container">
+        <div class="other-details">
+          <p class="property">Speed: <span class="value" id="speed">
+              -
+            </span></p>
+          <p class="property">Deg: <span class="value" id="deg">
+              -
+            </span></p>
+          <p class="property">Gust: <span class="value" id="gust">
+              -
+            </span></p>
+        </div>
+      </div>
+      <div class="city-info">
+        <div class="other-details">
+          <p class="property">Country: <span class="value" id="cntry">
+              -
+            </span></p>
+          <p class="property">City: <span class="value" id="cityName">
+              -
+            </span></p>
+          <p class="property">Timezone: <span class="value" id="timezone">
+              <- </span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>

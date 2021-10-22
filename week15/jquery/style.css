@@ -1,0 +1,26 @@
+.modal {
+	top: 50% !important;
+	left: 50% !important;
+	transform: translate(-50%, -50%) !important;
+	width: auto !important;
+	height: auto !important;
+}
+#toggle-slide,
+#toggle-fade {
+	display: none;
+}
+#css-mani-target {
+	transition: 0.5s ease;
+}
+#toglClass {
+	width: 100%;
+}
+.toglClassTarget {
+	height: 160px;
+	background: #0099ffdd;
+	transition: 0.5s ease;
+	border: 1px solid #000;
+}
+.active {
+	background: #fffb00dd;
+}
